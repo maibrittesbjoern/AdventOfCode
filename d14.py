@@ -25,13 +25,13 @@ scores.append(score1)
 #     scores.extend(score_add) 
 
 
-#     # rotating list to find new score0
+#     # finding score0
 #     rotate0 = score0+1
 #     loc0 += rotate0
 #     loc0 = loc0 % len(scores)
 #     score0 = scores[loc0]
 
-#     # rotating list to find new score1
+#     # finding score1
 #     rotate1 = score1+1
 #     loc1 += rotate1
 #     loc1 = loc1 % len(scores)
@@ -55,13 +55,13 @@ while len(scores)<length+rec:
     scores.extend(score_add) 
 
 
-    # rotating list to find new score0
+    # finding score0
     rotate0 = score0+1
     loc0 += rotate0
     loc0 = loc0 % len(scores)
     score0 = scores[loc0]
 
-    # rotating list to find new score1
+    # finding score1
     rotate1 = score1+1
     loc1 += rotate1
     loc1 = loc1 % len(scores)
